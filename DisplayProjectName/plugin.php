@@ -1,9 +1,9 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * Numbering System
- *
- * A simple numbering system for PancakeApp. Introducing the new plugin system.
- *
+ * Display Project Name
+ * 
+ * A Simple plugin to enable the display of the project name on invoices.
+ * 
  * @author		Lachlan Heywood
  * @copyright	Copyright (c) 2015, Hellotimber
  * @link		http://www.github.com/lachieh/pancake_display_project_name
