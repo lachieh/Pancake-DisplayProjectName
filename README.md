@@ -1,4 +1,4 @@
-# pancake_display_project_name
+# Pancake Plugin: Display Project Name
 A simple plugin to enable the display of the project name on invoices
 
 ## Instructions
