@@ -16,7 +16,10 @@ As an example, I used the pancake theme (`~/third_party/themes/pancake`) and cop
 Be sure to update the `info.php` file of your new theme so that the names don't clash. Following my exmaple, I only changed the theme name to 'Pancake Plus Theme'.
 
 #### Step 4. Insert the code into your invoice display.
-The code to display the project name is `<?php echo Plugin_Displayprojectname::get_project_name_by_id($project_id); ?>`
+The code to display the project name is as follows:
+```php
+<?php echo Plugin_Displayprojectname::get_project_name_by_id($project_id); ?>
+```
 
 In my theme, I chose to display the project name inside the client details section, like this:
 
