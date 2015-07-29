@@ -1,5 +1,5 @@
 # Pancake Plugin: Display Project Name
-A simple plugin to enable the display of the project name on invoices
+A simple plugin for [Panecake App](https://www.pancakeapp.com/ref/qetTcQ) to enable the display of the project name on invoices.
 
 ## Instructions
 
@@ -20,9 +20,9 @@ The code to display the project name is `<?php echo Plugin_Displayprojectname::g
 
 In my theme, I chose to display the project name inside the client details section, like this:
 
-Invoice display file: `~/third_part/themes/pancakeplus/views/layouts/detailed.php`
+Invoice display file: `~/third_party/themes/pancakeplus/views/layouts/detailed.php`
 
-```
+```php
 [...]
 <div id="clientInfo">
     <div id="billing-info">
